@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:IMqtt.Applicazione.Code.ViewModel"
+             x:Class="IMqtt.Applicazione.View.SettingsPages.ServerSettingPage"
+             BackgroundColor="White">
+    
+    <ContentPage.BindingContext>
+        <vm:ServerSettingViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <Image Source="arrow_back" BackgroundColor="Transparent" HeightRequest="20" WidthRequest="20" HorizontalOptions="Start" VerticalOptions="Start" Margin="20, 0, 0, 0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GoBackCommand}"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Frame BackgroundColor="#B7B7B7" BorderColor="Transparent" CornerRadius="10" Margin="20" HeightRequest="150">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Entry Placeholder="Broker Ip address"/>
+                        <Entry Placeholder="Broker port"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

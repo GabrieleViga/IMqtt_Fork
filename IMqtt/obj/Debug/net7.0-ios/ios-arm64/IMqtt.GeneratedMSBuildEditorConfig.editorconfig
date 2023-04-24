@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IMqtt
+build_property.ProjectDir = /Users/alex/RiderProjects/IMqtt/IMqtt/
+
+[/Users/alex/RiderProjects/IMqtt/IMqtt/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IMqtt.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/alex/RiderProjects/IMqtt/IMqtt/Applicazione/View/DashBoardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IMqtt.Applicazione.View.DashBoardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Applicazione/View/DashBoardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Applicazione/View/DashBoardPage.xaml
+
+[/Users/alex/RiderProjects/IMqtt/IMqtt/Applicazione/View/MainTabbedPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IMqtt.Applicazione.View.MainTabbedPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Applicazione/View/MainTabbedPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Applicazione/View/MainTabbedPage.xaml
+
+[/Users/alex/RiderProjects/IMqtt/IMqtt/Applicazione/View/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IMqtt.Applicazione.View.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Applicazione/View/SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Applicazione/View/SettingsPage.xaml
+
+[/Users/alex/RiderProjects/IMqtt/IMqtt/Applicazione/View/SettingsPages/ServerSettingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IMqtt.Applicazione.View.SettingsPages.ServerSettingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Applicazione/View/SettingsPages/ServerSettingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Applicazione/View/SettingsPages/ServerSettingPage.xaml
+
+[/Users/alex/RiderProjects/IMqtt/IMqtt/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IMqtt.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/alex/RiderProjects/IMqtt/IMqtt/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IMqtt.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/alex/RiderProjects/IMqtt/IMqtt/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IMqtt.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
