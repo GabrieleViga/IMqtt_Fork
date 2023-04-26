@@ -17,9 +17,9 @@
                     <Label Text="Server Config" TextColor="Black" FontFamily="RobotoMedium" FontSize="15" HorizontalOptions="Center"/>
                 </VerticalStackLayout>
                 <Border.Shadow>
-                    <Shadow Brush="Black"
+                    <Shadow Brush="#393939"
                             Offset="7,7"
-                            Radius="4"
+                            Radius="3"
                             Opacity="0.8" />
                 </Border.Shadow>
                 <Border.StrokeShape>
@@ -36,9 +36,9 @@
                     <Label Text="Items List" TextColor="Black" FontFamily="RobotoMedium" FontSize="15" HorizontalOptions="Center"/>
                 </VerticalStackLayout>
                 <Border.Shadow>
-                    <Shadow Brush="Black"
+                    <Shadow Brush="#393939"
                             Offset="7,7"
-                            Radius="4"
+                            Radius="3"
                             Opacity="0.8" />
                 </Border.Shadow>
                 <Border.StrokeShape>
@@ -52,9 +52,9 @@
                     <Label Text="Server Config" TextColor="Black" FontFamily="RobotoMedium" FontSize="15" HorizontalOptions="Center"/>
                 </VerticalStackLayout>
                 <Border.Shadow>
-                    <Shadow Brush="Black"
+                    <Shadow Brush="#393939"
                             Offset="7,7"
-                            Radius="4"
+                            Radius="3"
                             Opacity="0.8" />
                 </Border.Shadow>
                 <Border.StrokeShape>
@@ -62,7 +62,5 @@
                 </Border.StrokeShape>
             </Border>
         </Grid>
-        
-        
     </ContentPage.Content>
 </ContentPage>

@@ -3,8 +3,14 @@
 <Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:IMqtt.Applicazione.View"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              x:Class="IMqtt.Applicazione.View.MainTabbedPage"
              Shell.NavBarIsVisible="False">
+    
+    <Shell.Behaviors>
+        <mct:StatusBarBehavior StatusBarStyle="DarkContent"/>
+    </Shell.Behaviors>
+    
     <TabBar>
             <Tab Title="DashBoard"
                  Icon="dashboard">

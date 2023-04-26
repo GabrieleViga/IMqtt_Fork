@@ -4,14 +4,9 @@
              xmlns:vm="clr-namespace:IMqtt.Applicazione.Code.ViewModel"
              xmlns:base="clr-namespace:IMqtt.Applicazione.Code.Base"
              xmlns:aloha="clr-namespace:AlohaKit.Controls;assembly=AlohaKit"
-             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              x:Class="IMqtt.Applicazione.View.DashBoardPage"
              x:DataType="vm:MainPageViewModel"
              BackgroundColor="White">
-    
-    <ContentPage.Behaviors>
-        <mct:StatusBarBehavior StatusBarStyle="DarkContent"/>
-    </ContentPage.Behaviors>
 
     <ScrollView>
         <StackLayout

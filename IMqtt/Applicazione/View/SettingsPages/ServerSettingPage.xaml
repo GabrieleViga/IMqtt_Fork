@@ -17,14 +17,36 @@
                     <TapGestureRecognizer Command="{Binding GoBackCommand}"/>
                 </Image.GestureRecognizers>
             </Image>
-            <Frame BackgroundColor="#B7B7B7" BorderColor="Transparent" CornerRadius="10" Margin="20" HeightRequest="150">
+            <Border BackgroundColor="#55B8B8B8" Stroke="Transparent" StrokeShape="RoundRectangle 10" Margin="20" Padding="25" HeightRequest="170">
                 <VerticalStackLayout>
-                    <HorizontalStackLayout Spacing="10">
-                        <Entry Placeholder="Broker Ip address"/>
-                        <Entry Placeholder="Broker port"/>
+                    <HorizontalStackLayout Spacing="15" HorizontalOptions="Center">
+                        <Border BackgroundColor="#80C8C8C8" 
+                                Stroke="Transparent"
+                                StrokeShape="RoundRectangle 10"
+                                Padding="0,5,0,5"
+                                WidthRequest="147" HeightRequest="48">
+                            <Entry Placeholder="Broker Ip address" HorizontalOptions="Center" VerticalOptions="Center"
+                                   PlaceholderColor="#969696" TextColor="#444444" FontFamily="RobotoRegular" FontAttributes="Bold"/>
+                        </Border>
+                        <Border BackgroundColor="#80C8C8C8" 
+                                Stroke="Transparent"
+                                StrokeShape="RoundRectangle 10"
+                                Padding="0,5,0,5"
+                                WidthRequest="147" HeightRequest="48">
+                            <Entry Placeholder="Broker port" HorizontalOptions="Center" VerticalOptions="Center"
+                                   PlaceholderColor="#969696" TextColor="#444444" FontFamily="RobotoRegular" FontAttributes="Bold"/>
+                        </Border>
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Margin="20">
+                        <Frame  HeightRequest="48"/>
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
-            </Frame>
+            </Border>
+            
+            <!--Forse Da togliere-->
+            <VerticalStackLayout.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Right" Command="{Binding GoBackCommand}"/>
+            </VerticalStackLayout.GestureRecognizers>
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>
