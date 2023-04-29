@@ -6,7 +6,8 @@
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ---
 
-### IMqtt it's an **MQTT** visual client, used to publish or subscribe topics
+### What's this?
+> IMqtt it's an **MQTT** visual client, used to publish or subscribe topics
 ---
 - [x] Can edit topic
 - [x] Automatic reconnection
