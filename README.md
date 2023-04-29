@@ -7,7 +7,7 @@
 ---
 
 ### What's this?
-IMqtt it's an **MQTT** visual client, used to publish or subscribe topics
+- IMqtt it's an **MQTT** visual client, used to publish or subscribe topics
 ---
 
 - [x] Can edit topic
